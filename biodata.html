@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Biodata</title>
+	<style>
+	body
+	{
+	background:gray;
+	}
+		.left-space
+		{
+		   margin-left:10px;
+		}
+		.number-width
+		   width: 55px;
+		{
+		}
+		.top-margin
+		{
+		 margin-top:20px;
+		}
+		{
+		 margin-top:20px;
+		}
+	</style>
+  </head>
+  <body>
+  <img src="img_girl.jpg" alt="Girl in a jacket" width="250" height="300">
+
+    <h1 style="text-align:center;">My Biodata</h1>
+    <form action="">
+      <div style= "display:flex;">
+	  <div>
+	  <p>First Name: <input type="text" name="Firstname" required placeholder="First name"></p>
+	  </div>
+	  <div>
+	    <p class="left-space"> Middle Name: <input type="text" name="middlename" required placeholder="Middle name"></p>
+	  </div>
+	  <div>
+	    <p class="left-space"> Surname: <input type="text" name="surname" required placeholder="Surname"></p>
+	  </div>
+	  </div>
+      <p>Age: <input class="number-width" type="number" name="age"  size="9" required></p>
+	  <p style= "font-size:15px;text-align:left"> Birthday:</p>
+		<input style= "width:100px; font-size:14px" TYPE="date">
+		<br/>
+	  <SELECT class="top-margin">
+			<option> Select</option>
+			<option> Teacher</option>
+			<option> Parent</option>
+			<option> Student</option>
+     
+	  </SELECT> 
+	  <label>
+	  <p> Language: </p>
+	  <LANGUAGE class="top=margin">
+	  <input type="checkbox" name="language[]" value="Hiligaynon">
+	  Hiligaynon
+	  <input type="checkbox" name="language[]" value="English">
+	 English
+	 <input type="checkbox" name="language[]" value="Filipino">
+	 Filipino
+	  
+	  </label>
+	  
+	  
+     
+	  
+	
+	  <p>Occupation: <input type="text" name="occupation" required></p>
+      <p>Address: <input type="text" name="address" required></p>
+      <p>Phone: <input type="tel" name="phone" required></p>
+      <p>Email: <input type="email" name="email" required></p>
+	  Gender:	  <input type="radio" name="gender" required> Male
+	    <input type="radio" name="gender" required>Female
+      <p><input type="submit" value="Submit"></p>
+    </form>
+  </body>
+</html>
